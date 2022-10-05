@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sticky{
+    background-color: red;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+}
+.container{
+    background-color: aqua;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    gap: 20px;
+   
+    position: relative;
+    margin-bottom: 10000px;
+}
+
+.items{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(83, 11, 11);
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    
+}
+
+.n1{
+    background-color: blue;
+   /*  position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1; */
+}
+
+.n2{
+    /* position: absolute;
+    top:-100px;
+    right: -100px; */
+}
+
+.n3{
+    background-color: darkgreen;
+    
+    /* position: relative;
+    width: 50px;
+    height: 50px;
+    left:170px;
+    bottom: 25px; */
+}
